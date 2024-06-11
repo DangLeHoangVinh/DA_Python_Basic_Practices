@@ -7,35 +7,14 @@ Created on Fri Jan 12 21:24:29 2024
 
 import matplotlib.pyplot as plt
 
-'''
+#-------------------- Nhập dữ liệu -------------------------------------
 Units = float(input('Your units is: '))
 SellPrice = float(input('Your selling price per unit is: '))
 Variable = float(input('Variable cost per unit is: ' ))
 Fixed = float(input('Fixed cost for this year is: ' ))
 TargetProfit = float(input('Target Profit for this year is: ' ))
 
-'''
-Units = 2000
-SellPrice = 60
-Variable = 45
-Fixed = 240000
-TargetProfit = 100000
-# -------------------------------------------- in Power Point
-# Your units is: 1000
-# Your selling price per unit is: 2000
-# Variable cost is: 800
-# Fixed cost for this year is: 1200000
-# Target Profit for this year is: 100000
-
-# -------------------------------------------- in Excel
-# Your units is: 2000
-# Your selling price per unit is: 60
-# Variable cost is: 45
-# Fixed cost for this year is: 240000
-# Target Profit for this year is: 100000
-
-
-
+#------------------------------Tính toán ----------------------------
 CM_Ratio = SellPrice-Variable  # Contribution Margin Ratio 
 CM = Units*SellPrice - Units*Variable # Contribution Margin
 
